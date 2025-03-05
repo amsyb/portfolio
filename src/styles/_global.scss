@@ -1,0 +1,18 @@
+@use "./typography" as *;
+@use "./variables" as *;
+
+:root {
+  background-color: #080808;
+}
+
+h1 {
+  font-family: "Syne";
+  font-size: 100px;
+  color: $primary-text;
+}
+
+body {
+  font-family: "IBM Plex Sans";
+  font-size: 40px;
+  color: $primary-text;
+}
