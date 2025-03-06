@@ -1,9 +1,11 @@
-import React from "react";
+import resumeImg from "../../assets/images/resume.png";
+import "./Resume.scss";
 
 function Resume() {
   return (
-    <div>
-      <h1>Resume Page</h1>
+    <div className="resume">
+      <img src={resumeImg} alt="resume" className="resume__img" />
+      <button>Download PDF</button>
     </div>
   );
 }
