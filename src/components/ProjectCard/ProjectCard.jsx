@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 import burgerdrops from "../../assets/images/burgerdrops-img.png";
 import giftstart from "../../assets/images/giftstart-img.png";
 import nickgraham from "../../assets/images/nickgraham-img.png";
@@ -38,7 +38,9 @@ function ProjectCard() {
               system for a baby registry. The site was subsequently recognized
               with a Netty award for its innovation.
             </p>
-            <button>View Case Study</button>
+            <Link to="project/giftstart">
+              <button>View Case Study</button>
+            </Link>
           </div>
           <img
             src={giftstart}
