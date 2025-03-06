@@ -1,5 +1,11 @@
 @use "../../styles/mixins.scss" as *;
 
+.project {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
 .project__card {
   display: flex;
   flex-direction: column-reverse;
@@ -10,6 +16,7 @@
   @include tablet {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     padding: 2em;
     gap: 2em;
@@ -31,4 +38,8 @@
 .project__img {
   width: 100%;
   border-radius: 10px 10px 0 0;
+
+  @include tablet {
+    width: 40%;
+  }
 }

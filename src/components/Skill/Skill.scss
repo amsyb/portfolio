@@ -1,20 +1,6 @@
 @use "../../styles/mixins.scss" as *;
 @use "../../styles/variables.scss" as *;
 
-// .card {
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   align-items: center;
-//   gap: 1em;
-//   text-align: center;
-//   border: 1px #1c1c1c solid;
-//   padding: 2%;
-//   border-radius: 40px;
-//   width: 30%;
-//   background-color: #1c1c1c;
-// }
-
 .card__all {
   display: flex;
   flex-direction: column;
@@ -32,10 +18,10 @@
   align-items: center;
   gap: 1em;
   text-align: center;
-  border: 1px #1c1c1c solid;
   padding: 5%;
-  border-radius: 40px;
-  background-color: #1c1c1c;
+  border-radius: 10px;
+  background-color: #2d2d2d;
+  border: 1px solid #6b6b6b;
   margin: 1em 0;
 
   @include desktop {

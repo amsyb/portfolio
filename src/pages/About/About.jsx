@@ -26,6 +26,7 @@ function About() {
         </div>
       </div>
       <Skill />
+      <h3>Tech Stack</h3>
     </>
   );
 }
