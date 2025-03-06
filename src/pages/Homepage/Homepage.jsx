@@ -1,4 +1,3 @@
-import Navigation from "../../components/Navigation/Navigation";
 import Headshot from "../../assets/images/bw-headshot.png";
 
 import "./Homepage.scss";
@@ -6,7 +5,6 @@ import "./Homepage.scss";
 function Homepage() {
   return (
     <div>
-      <Navigation />
       <div className="banner">
         <div className="banner__text">
           <h1 className="banner__title">Anna Sybingco</h1>
@@ -16,6 +14,7 @@ function Homepage() {
             dedicated to inclusive design.  If you want to learn more about me
             visit my about page.
           </p>
+          <button>test me</button>
         </div>
         <img src={Headshot} alt="profile-image" className="banner__img" />
       </div>
