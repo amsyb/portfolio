@@ -15,7 +15,7 @@ function Homepage() {
             dedicated to inclusive design.  If you want to learn more about me
             visit my about page.
           </p>
-          <button>test me</button>
+          <button>Download Resume</button>
         </div>
         <img src={Headshot} alt="profile-image" className="banner__img" />
       </div>

@@ -52,13 +52,17 @@ body {
 
 button {
   background-image: linear-gradient(to right, #bfbfff 0%, #8db8f9 100%);
+  background-position: left;
+  transition: background-position 1s;
   height: 40px;
   border-radius: 20px;
   border: none;
   width: 160px;
   color: black;
-}
+  cursor: pointer;
 
-button:hover {
-  background-position: right center; /* change the direction of the change here */
+  &:hover,
+  &:focus {
+    background-image: linear-gradient(to right, #ffbf7f 0%, #f98dbf 100%);
+  }
 }
