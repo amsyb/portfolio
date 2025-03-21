@@ -9,9 +9,18 @@
 }
 
 .resume__img {
-  width: 100%;
+  display: none;
 
   @include tablet {
+    display: flex;
     width: 80%;
+  }
+}
+
+.resume__img-mobile {
+  width: 80%;
+
+  @include tablet {
+    display: none;
   }
 }
