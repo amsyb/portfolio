@@ -1,5 +1,8 @@
 import CaseStudy1 from "../../components/CaseStudy1/CaseStudy1";
 import Summary from "../../components/Summary/Summary";
+import MediaBlock from "../../components/MediaBlock/MediaBlock";
+import visualIdentity from "../../assets/images/visual-identity.png";
+import "./Giftstart.scss";
 
 const Giftstart = () => {
   return (
@@ -51,8 +54,38 @@ The Process"
         purchased. It was through rigorous user testing that we were able to
         fine-tune this aspect of the design successfully.
       </CaseStudy1>
-      {/* -----------------------
-Key Takeaways----------------------- */}
+
+      {/* -----------------------Establishing a Visual Identity----------------------- */}
+      <div>
+        <MediaBlock>
+          <img src={visualIdentity} alt="" className="gs_vi" />
+          <div>
+            <h3>Establishing a Visual Identity</h3>
+            <p>
+              To set the foundation for the site’s visual identity, I began by
+              compiling mood boards to explore potential design directions. This
+              process allowed us to refine our focus and present five distinct
+              color palettes to the CEO. After securing approval on the chosen
+              palette, we curated three typography options, and the CEO
+              entrusted us with the creative freedom to select the most fitting
+              choice. With the approved colour palette and typography in place,
+              we developed a comprehensive style guide. This guide included
+              primary, secondary, and tertiary colour definitions, as well as
+              detailed heading styles optimized for both desktop and mobile
+              platforms. The mood board guided our decisions for the types of
+              visual assets used on the websites. This meticulous approach
+              ensured a cohesive and visually appealing user experience across
+              all devices. The style guide allowed us to create a comprehensive
+              design system. Originally this project was sold as a headless
+              build. However, after learning more about what the client needed
+              we had to pivot to using Tailwind. Having the design system made
+              it that much easier for the developers to apply the changes.
+            </p>
+          </div>
+        </MediaBlock>
+      </div>
+
+      {/* -----------------------Key Takeaways----------------------- */}
       <CaseStudy1
         title="
 
