@@ -1,32 +1,42 @@
-import React from "react";
+import "./Summary.scss";
 
 const Summary = ({
-  header,
-  summaryTitle,
-  summaryCopy,
-  responsibilityTitle,
-  responsibilities = [], // Expecting an array
-  details,
+  overview1,
+  overview2,
+  overview3,
+  duration,
+  tools,
+  role,
 }) => {
   return (
-    <section className="summary">
-      <h1>{header}</h1>
-      {summaryTitle && <h2>{summaryTitle}</h2>}
-      {summaryCopy && <p>{summaryCopy}</p>}
-
-      {responsibilities.length > 0 && (
-        <div>
-          <h2>{responsibilityTitle}</h2>
-          <ul>
-            {responsibilities.map((item, index) => (
-              <li key={index}>{item}</li>
-            ))}
-          </ul>
+    <>
+      <section className="summary">
+        <h2>Taco Bout It</h2>
+        <div className="summary__copy">
+          <div className="summary__overview">
+            <h3>Overview</h3>
+            <p>{overview1}</p>
+            <p>{overview2}</p>
+            <p>{overview3}</p>
+          </div>
+          <div className="summary__stats">
+            <div className="summary__duration">
+              <h3>Project Duration</h3>
+              <p>{duration}</p>
+            </div>
+            <div className="summary__tools">
+              <h3>Tools Used</h3>
+              <p>{tools}</p>
+            </div>
+            <div className="summary__role">
+              <h3>Role</h3>
+              <p>{role}</p>
+            </div>
+          </div>
         </div>
-      )}
-
-      {details && <p>{details}</p>}
-    </section>
+        <button>View Github</button>
+      </section>
+    </>
   );
 };
 

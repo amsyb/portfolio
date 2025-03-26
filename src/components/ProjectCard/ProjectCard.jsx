@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import burgerdrops from "../../assets/images/burgerdrops-img.png";
+import tacoApp from "../../assets/images/taco-cs-img.png";
 import giftstart from "../../assets/images/giftstart-img.png";
 import nickgraham from "../../assets/images/nickgraham-img.png";
 import "./ProjectCard.scss";
@@ -10,22 +10,20 @@ function ProjectCard() {
       <section className="project">
         <section className="project__card">
           <div className="project__description">
-            <h2>Burger Drops</h2>
+            <h2>Taco 'Bout It</h2>
             <div className="project__category">
-              <p>UX/UI • Full Stack Development </p>
+              <p>Full Stack Development • JavaScript • React</p>
             </div>
             <p>
               Designed and developed a full-stack web application using Express,
               JavaScript, Node.js, and CSS, enabling customers to place orders,
-              schedule pickups, and earn rewards.
+              and earn rewards.
             </p>
-            <button>View Case Study</button>
+            <Link to="project/taco-restaurant">
+              <button>View Case Study</button>
+            </Link>
           </div>
-          <img
-            src={burgerdrops}
-            alt="giftstart-mockup"
-            className="project__img"
-          />
+          <img src={tacoApp} alt="giftstart-mockup" className="project__img" />
         </section>
         <section className="project__card">
           <div className="project__description">

@@ -1,5 +1,4 @@
 import CaseStudy1 from "../../components/CaseStudy1/CaseStudy1";
-import Summary from "../../components/Summary/Summary";
 import MediaBlock from "../../components/MediaBlock/MediaBlock";
 import visualIdentity from "../../assets/images/visual-identity.png";
 import "./Giftstart.scss";
@@ -8,20 +7,7 @@ const Giftstart = () => {
   return (
     <>
       {/* -----------------------summary----------------------- */}
-      <Summary
-        header="Giftstart"
-        summaryTitle="
-Summary"
-        summaryCopy="Giftstart involved the creation of a brand identity from scratch, including voice, and color palette."
-        responsibilityTitle="Responsibilities"
-        responsibilityCopy="Led UI brand design initiatives, crafting a comprehensive design system that supported a consistent and scalable user experience across all touchpoints.
- 
 
-Integrated insights from user research to address specific audience needs, ensuring that each design element contributed to building trust and aligning with the brand’s goals.
- 
-
-Applied UX/UI best practices throughout the design workflow, refining solutions to address both user pain points and client objectives effectively."
-      ></Summary>
       {/* -----------------------intro----------------------- */}
       <CaseStudy1 title="Introduction">
         Giftstart, a specialized baby registry service offering subscriptions,
@@ -56,7 +42,7 @@ The Process"
       </CaseStudy1>
 
       {/* -----------------------Establishing a Visual Identity----------------------- */}
-      <div>
+      {/* <div>
         <MediaBlock>
           <img src={visualIdentity} alt="" className="gs_vi" />
           <div>
@@ -83,7 +69,7 @@ The Process"
             </p>
           </div>
         </MediaBlock>
-      </div>
+      </div> */}
 
       {/* -----------------------Key Takeaways----------------------- */}
       <CaseStudy1

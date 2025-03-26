@@ -1,17 +1,20 @@
 import React from "react";
 import "./MediaBlock.scss";
 
-const MediaBlock = ({ image, children }) => {
+const MediaBlockLeft = ({ image, title, description }) => {
   return (
     <>
-      <section className="block">
-        <div className="block__img">
-          <img src={image} alt="" />
+      <section className="media">
+        <div className="media__container">
+          <img src={image} alt={title} className="media__img" />
         </div>
-        <div className="block__text">{children}</div>
+        <div className="media__text">
+          <h4>{title}</h4>
+          <p>{description}</p>
+        </div>
       </section>
     </>
   );
 };
 
-export default MediaBlock;
+export default MediaBlockLeft;
