@@ -1,10 +1,11 @@
 import React from "react";
 import "./MediaBlock.scss";
+import "../../pages/TacoRestaurant/TacoRestaurant.scss";
 
 const MediaBlockLeft = ({ image, title, description }) => {
   return (
     <>
-      <section className="media">
+      <section className="media final__product">
         <div className="media__container">
           <img src={image} alt={title} className="media__img" />
         </div>

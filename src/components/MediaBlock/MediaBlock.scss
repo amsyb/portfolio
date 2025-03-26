@@ -25,6 +25,7 @@
 
 .media__text {
   width: 100%;
+  @include text-primary;
   @include tablet {
     width: 50%;
   }

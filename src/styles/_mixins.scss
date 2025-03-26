@@ -19,3 +19,10 @@
   padding: 1em;
   margin: 1em 0;
 }
+
+@mixin text-primary {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin: 2em 0;
+}
