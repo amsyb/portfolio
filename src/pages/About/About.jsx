@@ -1,5 +1,6 @@
 import "./About.scss";
 import Skill from "../../components/Skill/Skill";
+import TechStack from "../../components/TechStack/TechStack";
 
 function About() {
   return (
@@ -27,6 +28,7 @@ function About() {
       </div>
       <Skill />
       <h3>Tech Stack</h3>
+      <TechStack />
     </>
   );
 }
