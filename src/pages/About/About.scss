@@ -1,0 +1,15 @@
+.about {
+  padding: 2em 0;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.about__description {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}

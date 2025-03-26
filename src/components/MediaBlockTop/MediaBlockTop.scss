@@ -1,0 +1,14 @@
+@use "../../styles/mixins.scss" as *;
+
+.block__container {
+  width: 100%;
+}
+
+.block__img {
+  width: 100%;
+}
+
+.block__copy {
+  width: 100%;
+  @include text-primary;
+}

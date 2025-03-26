@@ -1,0 +1,43 @@
+@use "../../styles/mixins.scss" as *;
+@use "../../styles/variables.scss" as *;
+
+.card__all {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  @include desktop {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  text-align: center;
+  padding: 5%;
+  border-radius: 10px;
+  background-color: #2d2d2d;
+  border: 1px solid #6b6b6b;
+  margin: 1em 0;
+
+  @include desktop {
+    padding: 2%;
+    max-width: 30%;
+  }
+}
+
+.card__img {
+  height: 100px;
+}
+
+.about__paragraph {
+  width: 100%;
+
+  @include tablet {
+    width: 50%;
+  }
+}

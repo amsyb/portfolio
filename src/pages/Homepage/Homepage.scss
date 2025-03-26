@@ -1,0 +1,33 @@
+@use "../../styles/global" as *;
+@use "../../styles/mixins" as *;
+
+.banner {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 2em 0;
+
+  @include tablet {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+  }
+}
+
+.banner__description {
+  width: 100%;
+}
+
+.banner__text {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.banner__img {
+  width: 100%;
+
+  @include tablet {
+    width: 40%;
+  }
+}
