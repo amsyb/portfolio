@@ -20,7 +20,10 @@ function TacoRestaurant() {
         duration="Jan 2025 - Feb 2025"
         tools="React, Node, Express, Javascript, SCCS, Photoshop"
         role="Full-Stack Developer & UX/UI Designer"
+        button="View Github"
+        buttonLink="https://github.com/amsyb/taco-restaurant"
       ></Summary>
+
       <TextBlock
         title="Problem Space"
         copy="This app concept aims to support a hypothetical business owner. Since Taco 'Bout It relies on platforms like Uber Eats and DoorDash, they would incur costly fees to keep their restaurant listed. The goal is to create a custom app that helps retain more revenue and develop an experience that aligns seamlessly with their unique brand identity."
@@ -52,6 +55,7 @@ function TacoRestaurant() {
         title="Final Product"
         description="The final product is a full-stack application built with React, designed to provide a seamless and engaging user experience. The core functionality allows users to place orders efficiently while also tracking their rewards, ensuring they can easily redeem benefits once they accumulate enough points. Recognizing the importance of personalization, I also implemented a light and dark mode toggle, enhancing accessibility and user preference options. To see the full project in action, you can explore the code on my GitHub."
         button="View Github"
+        buttonLink="https://github.com/amsyb/taco-restaurant"
         classname="final__product"
       ></MediaBlockRight>
       <MediaBlockLeft

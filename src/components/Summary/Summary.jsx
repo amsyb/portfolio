@@ -7,7 +7,13 @@ const Summary = ({
   duration,
   tools,
   role,
+  button,
+  buttonLink,
 }) => {
+  const goToLink = () => {
+    window.open(buttonLink, "_blank");
+  };
+
   return (
     <>
       <section className="summary">
@@ -34,7 +40,7 @@ const Summary = ({
             </div>
           </div>
         </div>
-        <button>View Github</button>
+        <button onClick={goToLink}>{button}</button>
       </section>
     </>
   );
