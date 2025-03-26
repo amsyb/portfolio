@@ -1,8 +1,8 @@
 import Summary from "../../components/Summary/Summary";
 import TextBlock from "../../components/TextBlock/TextBlock";
 import redlining from "../../assets/images/taco-redlining.png";
-import tacoApp from "../../assets/images/taco-cs-img.png";
 import future from "../../assets/images/next-steps.png";
+import finalProduct from "../../assets/images/tcs-final-product.png";
 import userPersona from "../../assets/images/user-persona.png";
 import MediaBlockLeft from "../../components/MediaBlock/MediaBlock";
 import MediaBlockRight from "../../components/MediaBlockRight/MediaBlockRight";
@@ -25,12 +25,13 @@ function TacoRestaurant() {
         title="Problem Space"
         copy="This app concept aims to support a hypothetical business owner. Since Taco 'Bout It relies on platforms like Uber Eats and DoorDash, they would incur costly fees to keep their restaurant listed. The goal is to create a custom app that helps retain more revenue and develop an experience that aligns seamlessly with their unique brand identity."
       ></TextBlock>
-
+      {/* 
       <MediaBlockTop
         title="The Process"
         text="For this project, branding and styling came naturally, as the clients had a strong, well-defined identity reflected in their marketing and food. To ensure the design resonated with their audience, I began by developing a user persona. This step was essential in gaining a deeper understanding of the target users’ needs, behaviors, and expectations, allowing me to create a more accessible and user-centered experience."
         image={userPersona}
-      ></MediaBlockTop>
+        classname="process"
+      ></MediaBlockTop> */}
       <MediaBlockLeft
         image={redlining}
         title="Research"
@@ -47,7 +48,7 @@ function TacoRestaurant() {
           needs."
       ></MediaBlockLeft>
       <MediaBlockRight
-        image={tacoApp}
+        image={finalProduct}
         title="Final Product"
         description="The final product is a full-stack application built with React, designed to provide a seamless and engaging user experience. The core functionality allows users to place orders efficiently while also tracking their rewards, ensuring they can easily redeem benefits once they accumulate enough points. Recognizing the importance of personalization, I also implemented a light and dark mode toggle, enhancing accessibility and user preference options. To see the full project in action, you can explore the code on my GitHub."
         button="View Github"
