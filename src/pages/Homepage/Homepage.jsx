@@ -5,7 +5,7 @@ import "./Homepage.scss";
 
 function Homepage() {
   return (
-    <div>
+    <div className="homepage">
       <div className="banner">
         <div className="banner__text">
           <h1 className="banner__title">Anna Sybingco</h1>

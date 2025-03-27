@@ -1,6 +1,10 @@
 @use "../../styles/global" as *;
 @use "../../styles/mixins" as *;
 
+.homepage {
+  @include global-padding;
+}
+
 .banner {
   display: flex;
   flex-direction: column-reverse;

@@ -1,6 +1,9 @@
+@use "../../styles/mixins" as *;
+
 .navbar {
   display: flex;
   align-items: center;
+  @include global-padding;
 }
 
 .navbar__link {

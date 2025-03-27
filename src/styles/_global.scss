@@ -13,10 +13,6 @@
 :root {
   background-color: #080808;
   contain: content;
-  padding: 1em;
-  @include tablet {
-    padding: 2em;
-  }
 }
 
 a {
@@ -88,5 +84,10 @@ button {
   &:hover,
   &:focus {
     background-image: linear-gradient(to right, #ffbf7f 0%, #f98dbf 100%);
+  }
+
+  &:disabled {
+    background-color: grey !important;
+    cursor: not-allowed;
   }
 }

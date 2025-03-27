@@ -26,3 +26,10 @@
   gap: 1em;
   margin: 2em 0;
 }
+
+@mixin global-padding {
+  padding: 1em;
+  @include tablet {
+    padding: 3em;
+  }
+}

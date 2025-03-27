@@ -1,34 +1,33 @@
 import "./About.scss";
-import Skill from "../../components/Skill/Skill";
 import TechStack from "../../components/TechStack/TechStack";
+import Headshot from "../../assets/images/bw-headshot.png";
 
 function About() {
   return (
     <>
-      <div className="about">
-        <div className="about__text">
-          <h2>Hello there,</h2>
-          <div className="about__description">
-            <p className="about__paragraph">
-              Great of you to stop by, my name is Anna, I'm a UX Designer driven
-              to create seamless, intuitive, and engaging digital interactions.
-              Experienced in e-commerce, I strive to enhance the online shopping
-              journey by making it efficient as well as memorable.
-            </p>
-            <p className="about__paragraph">
-              Over the past 3 years, I have had the privilege of working with a
-              diverse range of e-commerce businesses, from startups to
-              established brands. My projects have spanned various industries,
-              including fashion, electronics, food, and more. Each project has
-              presented unique challenges and opportunities, allowing me to
-              refine my skills in:
-            </p>
+      <section>
+        <div className="about">
+          <div className="about__text">
+            <h1>Hi I'm Anna</h1>
+            <div className="about__description">
+              <p className="about__paragraph">
+                A software developer based in Toronto with a background in UX/UI
+                design. I’ve led user research, built brand identities from the
+                ground up, and communicated data-driven designs to non-technical
+                stakeholders.
+              </p>
+              <p className="about__paragraph">
+                Compelled by a genuine curiosity and desire for growth, I
+                transitioned into software development. This shift allows me to
+                blend my design expertise with coding, crafting user-centered
+                and accessible interfaces.
+              </p>
+            </div>
           </div>
+          <img src={Headshot} alt="portfolio-img" className="about__image" />
         </div>
-      </div>
-      <Skill />
-      <h3>Tech Stack</h3>
-      <TechStack />
+        <TechStack />
+      </section>
     </>
   );
 }

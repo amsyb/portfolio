@@ -1,15 +1,30 @@
+@use "../../styles/mixins.scss" as *;
+
 .about {
   padding: 2em 0;
+  display: flex;
+  flex-direction: column;
+
+  @include tablet {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
 .about__text {
   display: flex;
   flex-direction: column;
   gap: 1em;
+  width: 50%;
 }
 
 .about__description {
   display: flex;
   flex-direction: column;
   gap: 0.5em;
+}
+
+.about__image {
+  width: 30%;
 }
