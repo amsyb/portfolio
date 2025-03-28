@@ -8,7 +8,7 @@
 .banner {
   display: flex;
   flex-direction: column-reverse;
-  padding: 2em 0;
+  padding-bottom: 2em;
 
   @include tablet {
     display: flex;
@@ -20,6 +20,10 @@
 
 .banner__description {
   width: 100%;
+
+  @include tablet {
+    width: 50%;
+  }
 }
 
 .banner__text {
@@ -34,4 +38,8 @@
   @include tablet {
     width: 40%;
   }
+}
+
+.banner__image {
+  width: 100%;
 }

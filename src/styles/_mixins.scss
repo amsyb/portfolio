@@ -33,3 +33,7 @@
     padding: 3em;
   }
 }
+
+@mixin gradient {
+  background-image: linear-gradient(to right, #bfbfff 0%, #8db8f9 100%);
+}

@@ -1,6 +1,5 @@
 import "./About.scss";
-import TechStack from "../../components/TechStack/TechStack";
-import Headshot from "../../assets/images/bw-headshot.png";
+import tech from "../../assets/images/tech.png";
 
 function About() {
   return (
@@ -24,9 +23,11 @@ function About() {
               </p>
             </div>
           </div>
-          <img src={Headshot} alt="portfolio-img" className="about__image" />
+          <div className="test">
+            <h4>Tools & Technologies</h4>
+            <img src={tech} alt="" className="about__tech" />
+          </div>
         </div>
-        <TechStack />
       </section>
     </>
   );

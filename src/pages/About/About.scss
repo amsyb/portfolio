@@ -1,12 +1,11 @@
 @use "../../styles/mixins.scss" as *;
 
 .about {
-  padding: 2em 0;
   display: flex;
   flex-direction: column;
+  gap: 4em;
 
   @include tablet {
-    flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
   }
@@ -17,6 +16,7 @@
   flex-direction: column;
   gap: 1em;
   width: 50%;
+  text-align: center;
 }
 
 .about__description {
@@ -25,6 +25,17 @@
   gap: 0.5em;
 }
 
-.about__image {
-  width: 30%;
+.test {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
+.about__tech {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding-bottom: 2em;
 }
