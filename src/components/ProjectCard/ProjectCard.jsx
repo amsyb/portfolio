@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
-import tacoApp from "../../assets/images/taco-cs-img.png";
+import tacoBoutIt from "../../assets/images/tcs.png";
 import giftstart from "../../assets/images/giftstart-img.png";
 import nickgraham from "../../assets/images/nickgraham-img.png";
 import "./ProjectCard.scss";
+import "../../styles/_global.scss";
 
 function ProjectCard() {
   return (
@@ -23,7 +24,11 @@ function ProjectCard() {
               <button>View Case Study</button>
             </Link>
           </div>
-          <img src={tacoApp} alt="giftstart-mockup" className="project__img" />
+          <img
+            src={tacoBoutIt}
+            alt="giftstart-mockup"
+            className="project__img"
+          />
         </section>
         <section className="project__card">
           <div className="project__description">
@@ -36,9 +41,8 @@ function ProjectCard() {
               system for a baby registry. The site was subsequently recognized
               with a Netty award for its innovation.
             </p>
-            <Link to="project/giftstart">
-              <button>View Case Study</button>
-            </Link>
+
+            <button className="btn__disabled">Coming Soon</button>
           </div>
           <img
             src={giftstart}
@@ -57,7 +61,7 @@ function ProjectCard() {
               homepage that followed best practices, effectively showcasing
               their full product catalog.
             </p>
-            <button>View Case Study</button>
+            <button className="btn__disabled">Coming Soon</button>
           </div>
           <img
             src={nickgraham}

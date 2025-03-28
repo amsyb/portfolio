@@ -1,11 +1,42 @@
+@use "../../styles/mixins" as *;
+
 .navbar {
   display: flex;
   align-items: center;
+  width: 100%;
+  @include global-padding;
 }
 
 .navbar__link {
   display: flex;
   justify-content: center;
   gap: 2em;
+  text-decoration: none;
+  color: #333;
+  padding: 8px 12px;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+
+  &.navbar__active {
+    color: #8db8f9;
+    font-weight: bold;
+    border-bottom: 2px solid transparent; // Required for border-image to work
+    border-image: linear-gradient(to right, #bfbfff 0%, #8db8f9 100%);
+    border-image-slice: 1;
+    border-image-repeat: stretch;
+  }
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: blue;
+}
+
+.navbar__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
+  gap: 2em;
 }

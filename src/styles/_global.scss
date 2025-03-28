@@ -13,10 +13,6 @@
 :root {
   background-color: #080808;
   contain: content;
-  padding: 1em;
-  @include tablet {
-    padding: 2em;
-  }
 }
 
 a {
@@ -77,7 +73,7 @@ body {
 button {
   background-image: linear-gradient(to right, #bfbfff 0%, #8db8f9 100%);
   background-position: left;
-  transition: background-position 1s;
+  transition: background-position 1s, background-image 0.3s ease-in-out;
   height: 40px;
   border-radius: 20px;
   border: none;
@@ -89,4 +85,16 @@ button {
   &:focus {
     background-image: linear-gradient(to right, #ffbf7f 0%, #f98dbf 100%);
   }
+
+  &:active {
+    background-image: linear-gradient(to right, #f98dbf 0%, #ffbf7f 100%);
+  }
+}
+
+.btn__disabled {
+  background-image: none;
+  background-color: #444242;
+  color: #848484;
+  cursor: not-allowed;
+  pointer-events: none;
 }

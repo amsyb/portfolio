@@ -12,9 +12,11 @@ function Skill() {
           <h3 className="card__title"> Visual Identity and Brand Alignment</h3>
           <p className="card__text">
             I have created both new visual identities and led brand refresh
-            initiatives, ensuring that the brand’s visuals remained aligned
+            initiatives, ensuring that the brand’s visuals remained consistent
             while developing advertisements and social media content—all while
-            upholding the client’s core brand values.
+            staying true to the client’s core values. These experiences have
+            deepened my appreciation for crafting cohesive, user-centered
+            designs that resonate with audiences.
           </p>
         </div>
         <div className="card">
@@ -23,8 +25,10 @@ function Skill() {
           <p className="card__text">
             In my previous role, I led the development of wireframes and
             high-fidelity prototypes that evolved into robust systems. This
-            experience taught me the importance of an iterative process driven
-            by data insights.
+            process not only honed my design skills but also sparked my interest
+            in bringing these designs to life through code, reinforcing my
+            belief in an iterative, data-driven approach to building impactful
+            digital products.
           </p>
         </div>
         <div className="card">
@@ -33,9 +37,11 @@ function Skill() {
           <p className="card__text">
             I have collaborated closely with clients and developers to analyze
             project scope, ensuring feasibility and alignment with deadlines.
-            Additionally, I have worked with product managers, and fellow
+            Additionally, I’ve worked alongside product managers and fellow
             designers to deliver fully functional websites across diverse
-            industries.
+            industries. This cross-functional collaboration has inspired me to
+            further explore the development side, allowing me to bridge the gap
+            between design and implementation.
           </p>
         </div>
       </section>
