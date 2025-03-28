@@ -3,7 +3,6 @@ import Navigation from "./components/Navigation/Navigation";
 import Homepage from "./pages/Homepage/Homepage";
 import About from "./pages/About/About";
 import Resume from "./pages/Resume/Resume";
-import Giftstart from "./pages/Giftstart/Giftstart";
 import TacoRestaurant from "./pages/TacoRestaurant/TacoRestaurant";
 import Footer from "./components/Footer/Footer";
 
@@ -16,7 +15,6 @@ function App() {
           <Route path="/" element={<Homepage />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/project/giftstart" element={<Giftstart />} />
           <Route path="/project/taco-restaurant" element={<TacoRestaurant />} />
         </Routes>
         <Footer />

@@ -1,4 +1,3 @@
-import Headshot from "../../assets/images/bw-headshot.png";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import about from "../../assets/images/about.png";
 

@@ -7,3 +7,7 @@
 .process {
   background-color: #2d2d2d;
 }
+
+.casestudy {
+  @include global-padding;
+}
