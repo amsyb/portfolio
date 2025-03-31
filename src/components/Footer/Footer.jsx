@@ -19,7 +19,7 @@ function Footer() {
           <a href="https://www.linkedin.com/in/annasybingco" target="_blank">
             <img src={linkedIn} alt="linked-in-link" />
           </a>
-          <a href="https://www.gmail.com" target="_blank">
+          <a href="mailto:sybingcoanna@gmail.com" target="_blank">
             <img src={gmail} alt="gmail-link" />
           </a>
         </div>
