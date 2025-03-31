@@ -11,3 +11,29 @@
     @content;
   }
 }
+
+@mixin background-primary {
+  background-color: #2d2d2d;
+  border: 1px solid #6b6b6b;
+  border-radius: 10px;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+@mixin text-primary {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin: 2em 0;
+}
+
+@mixin global-padding {
+  padding: 1em;
+  @include tablet {
+    padding: 3em;
+  }
+}
+
+@mixin gradient {
+  background-image: linear-gradient(to right, #bfbfff 0%, #8db8f9 100%);
+}

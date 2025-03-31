@@ -1,12 +1,25 @@
-import React from "react";
+import ProjectCard from "../../components/ProjectCard/ProjectCard";
+import about from "../../assets/images/about.png";
+
 import "./Homepage.scss";
 
 function Homepage() {
   return (
-    <div>
-      <h1>Anna Sybingco</h1>
-      <p>I am happiest when i'm with you</p>
-    </div>
+    <>
+      <div className="homepage">
+        <img src={about} alt="" className="banner__image" />
+        <div className="banner">
+          <div className="banner__text">
+            <p className="banner__description">
+              I’m an experienced UX/UI designer with a diploma in software
+              engineering. Simply put, I’m a highly enthusiastic problem solver,
+              dedicated to inclusive design. 
+            </p>
+          </div>
+        </div>
+        <ProjectCard />
+      </div>
+    </>
   );
 }
 

@@ -1,0 +1,13 @@
+@use "../../styles/mixins" as *;
+
+.final__product {
+  @include background-primary;
+}
+
+.process {
+  background-color: #2d2d2d;
+}
+
+.casestudy {
+  @include global-padding;
+}

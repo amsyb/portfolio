@@ -1,0 +1,49 @@
+@use "../../styles/mixins" as *;
+
+.summary {
+  @include background-primary;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.summary__copy {
+  display: flex;
+  flex-direction: column;
+
+  @include tablet {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.summary__overview {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 100%;
+  padding: 0.5em, 0.5em, 0.5em, 0;
+  @include tablet {
+    width: 60%;
+  }
+}
+
+.summary__title {
+  padding-bottom: 0.5em;
+}
+
+.summary__stats {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding-top: 1em;
+
+  @include tablet {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-left: 3em;
+  }
+}

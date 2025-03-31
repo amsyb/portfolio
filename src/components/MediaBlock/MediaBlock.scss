@@ -1,0 +1,32 @@
+@use "../../styles/mixins.scss" as *;
+
+.media {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 0.5em, 0.5em, 0.5em, 0;
+
+  @include tablet {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.media__container {
+  width: 100%;
+  @include tablet {
+    width: 50%;
+  }
+}
+
+.media__img {
+  width: 100%;
+}
+
+.media__text {
+  width: 100%;
+  @include text-primary;
+  @include tablet {
+    width: 50%;
+  }
+}

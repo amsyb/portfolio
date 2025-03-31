@@ -1,0 +1,16 @@
+@use "../../styles/mixins" as *;
+
+.footer {
+  background-color: #1f2128;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4em;
+
+  @include global-padding;
+
+  &__social {
+    display: flex;
+    gap: 1em;
+  }
+}

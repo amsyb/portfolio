@@ -1,0 +1,26 @@
+@use "../../styles/mixins" as *;
+
+.resume {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  padding: 1em;
+}
+
+.resume__img {
+  display: none;
+
+  @include tablet {
+    display: flex;
+    width: 50%;
+  }
+}
+
+.resume__img-mobile {
+  width: 80%;
+
+  @include tablet {
+    display: none;
+  }
+}
