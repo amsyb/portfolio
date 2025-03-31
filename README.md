@@ -18,7 +18,7 @@
 
 ###
 
-<p align="left">🕹️ Strengthening my understanding of data structures and algorithms.<br><br>🌍 Enhancing my expertise in accessibility and inclusive design.<br><br>🤝 Open to mentorship, collaboration, and learning opportunities in front-end development.</p>
+<p align="left">🕹️ Strengthening my understanding of data structures and algorithms.<br><br>🌍 Enhancing my expertise in accessibility and inclusive design.<br><br>🤝 Open to mentorship, collaboration, and learning opportunities.</p>
 
 ###
 
