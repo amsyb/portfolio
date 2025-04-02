@@ -30,7 +30,7 @@
 @mixin global-padding {
   padding: 1em;
   @include tablet {
-    padding: 3em;
+    padding: 2em 6em;
   }
 }
 
