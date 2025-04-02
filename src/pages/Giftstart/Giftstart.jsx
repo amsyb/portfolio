@@ -37,9 +37,11 @@ function Giftstart() {
         <MediaBlockRight
           image={finalProduct}
           title="Final Product"
-          description="The final product is a full-stack application built with React, designed to provide a seamless and engaging user experience. The core functionality allows users to place orders efficiently while also tracking their rewards, ensuring they can easily redeem benefits once they accumulate enough points. Recognizing the importance of personalization, I also implemented a light and dark mode toggle, enhancing accessibility and user preference options. To see the full project in action, you can explore the code on my GitHub."
-          button="View Github"
-          buttonLink="https://github.com/amsyb/taco-restaurant"
+          description="Giftstart expanded my previous employer’s market reach by establishing a strong brand and scalable UI framework. A highlight was the intuitive gift registry UI, which enhanced user experience and translated seamlessly into front-end components.
+The project’s success led to industry recognition, earning an Innovative Design award at the Netty Awards.
+"
+          button="View Site"
+          buttonLink="https://giftstart.ca/"
         ></MediaBlockRight>
         <div className="giftstart__takeaways">
           <TextBlock
