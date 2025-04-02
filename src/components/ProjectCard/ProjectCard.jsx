@@ -62,7 +62,9 @@ function ProjectCard() {
               homepage that followed best practices, effectively showcasing
               their full product catalog.
             </p>
-            <button className="btn__disabled">Coming Soon</button>
+            <Link to="project/nickgraham">
+              <button>View Case Study</button>
+            </Link>
           </div>
           <img
             src={nickgraham}
