@@ -28,7 +28,7 @@
   background-color: #c1eec1;
 }
 
-@-webkit-keyframes mymove {
+@keyframes mymove {
   50% {
     transform: scale(2);
     opacity: 0;
@@ -101,29 +101,3 @@
     width: 70%;
   }
 }
-
-// .homepage__about {
-//   display: flex;
-//   flex-direction: column;
-//   width: 40%;
-//   gap: 2em;
-// }
-
-// .homepage__copy {
-//   display: flex;
-//   flex-direction: column-reverse;
-
-//   @include tablet {
-//     display: flex;
-//     align-items: flex-end;
-//     justify-content: space-between;
-//     padding-bottom: 3em;
-//   }
-// }
-
-// .homepage__profile {
-//   display: flex;
-//   flex-direction: column;
-//   align-items: flex-end;
-//   gap: 1em;
-// }

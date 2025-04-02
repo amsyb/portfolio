@@ -1,7 +1,7 @@
 import Summary from "../../components/Summary/Summary";
 import TextBlock from "../../components/TextBlock/TextBlock";
-import redlining from "../../assets/images/taco-redlining.png";
-import future from "../../assets/images/next-steps.png";
+import redlining from "../../assets/images/tcs-redlining.png";
+import future from "../../assets/images/tcs-next.png";
 import finalProduct from "../../assets/images/tcs-final-product.png";
 import userPersona from "../../assets/images/user-persona.png";
 import MediaBlockLeft from "../../components/MediaBlock/MediaBlock";
@@ -16,7 +16,7 @@ function TacoRestaurant() {
         <Summary
           title="Taco 'Bout It"
           overview1="• Led end-to-end development and design by handling UX/UI design, front-end implementation, and back-end development to deliver a fully functional product."
-          overview2="• Designed and developed responsive, user-centered interfaces in [tech stack, e.g., React, Node.js] that enhanced user engagement and met project goals."
+          overview2="• Designed and developed responsive, user-centered interfaces that enhanced user engagement and met project goals."
           overview3="• Built and maintained back-end APIs and databases to ensure seamless data flow and functionality."
           duration="Jan 2025 - Feb 2025"
           tools="React, Node, Express, Javascript, SCCS, Photoshop"
