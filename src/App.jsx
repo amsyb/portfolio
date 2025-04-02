@@ -4,6 +4,7 @@ import Homepage from "./pages/Homepage/Homepage";
 import About from "./pages/About/About";
 import Resume from "./pages/Resume/Resume";
 import TacoRestaurant from "./pages/TacoRestaurant/TacoRestaurant";
+import Giftstart from "./pages/Giftstart/Giftstart";
 import Footer from "./components/Footer/Footer";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/project/taco-restaurant" element={<TacoRestaurant />} />
+          <Route path="/project/giftstart" element={<Giftstart />} />
         </Routes>
         <Footer />
       </BrowserRouter>

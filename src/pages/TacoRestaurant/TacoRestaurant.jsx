@@ -13,6 +13,7 @@ function TacoRestaurant() {
   return (
     <>
       <section className="casestudy">
+        <h1>Taco 'Bout It</h1>
         <Summary
           title="Taco 'Bout It"
           overview1="• Led end-to-end development and design by handling UX/UI design, front-end implementation, and back-end development to deliver a fully functional product."
@@ -27,7 +28,7 @@ function TacoRestaurant() {
 
         <TextBlock
           title="Problem Space"
-          copy="This app concept aims to support a hypothetical business owner. Since Taco 'Bout It relies on platforms like Uber Eats and DoorDash, they would incur costly fees to keep their restaurant listed. The goal is to create a custom app that helps retain more revenue and develop an experience that aligns seamlessly with their unique brand identity."
+          copy1="This app concept aims to support a hypothetical business owner. Since Taco 'Bout It relies on platforms like Uber Eats and DoorDash, they would incur costly fees to keep their restaurant listed. The goal is to create a custom app that helps retain more revenue and develop an experience that aligns seamlessly with their unique brand identity."
         ></TextBlock>
         {/* 
       <MediaBlockTop

@@ -1,0 +1,5 @@
+@use "../../styles/mixins" as *;
+
+.giftstart__takeaways {
+  @include background-primary;
+}
