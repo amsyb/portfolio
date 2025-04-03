@@ -25,7 +25,7 @@ function About() {
           </div>
           <div className="test">
             <h4>Tools & Technologies</h4>
-            <img src={tech} alt="" className="about__tech" />
+            <img src={tech} alt="" className="about__tech" loading="lazy" />
           </div>
         </div>
       </section>
