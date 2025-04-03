@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import tacoBoutIt from "../../assets/images/tcs.png";
 import giftstart from "../../assets/images/gsp.png";
-import nickgraham from "../../assets/images/nickgraham-img.png";
+import nickgraham from "../../assets/images/ng-final.png";
 import "./ProjectCard.scss";
 import "../../styles/_global.scss";
 
