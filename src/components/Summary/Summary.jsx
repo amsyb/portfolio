@@ -17,7 +17,6 @@ const Summary = ({
   return (
     <>
       <section className="summary">
-        <h2>Taco Bout It</h2>
         <div className="summary__copy">
           <div className="summary__overview">
             <h3>Overview</h3>

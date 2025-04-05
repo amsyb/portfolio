@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import tacoBoutIt from "../../assets/images/tcs.png";
-import giftstart from "../../assets/images/giftstart-img.png";
-import nickgraham from "../../assets/images/nickgraham-img.png";
+import giftstart from "../../assets/images/gsp.png";
+import nickgraham from "../../assets/images/ng-final.png";
 import "./ProjectCard.scss";
 import "../../styles/_global.scss";
 
@@ -28,6 +28,7 @@ function ProjectCard() {
             src={tacoBoutIt}
             alt="giftstart-mockup"
             className="project__img"
+            loading="lazy"
           />
         </section>
         <section className="project__card">
@@ -41,13 +42,15 @@ function ProjectCard() {
               system for a baby registry. The site was subsequently recognized
               with a Netty award for its innovation.
             </p>
-
-            <button className="btn__disabled">Coming Soon</button>
+            <Link to="project/giftstart">
+              <button>View Case Study</button>
+            </Link>
           </div>
           <img
             src={giftstart}
             alt="giftstart-mockup"
             className="project__img"
+            loading="lazy"
           />
         </section>
         <section className="project__card">
@@ -61,12 +64,15 @@ function ProjectCard() {
               homepage that followed best practices, effectively showcasing
               their full product catalog.
             </p>
-            <button className="btn__disabled">Coming Soon</button>
+            <Link to="project/nickgraham">
+              <button>View Case Study</button>
+            </Link>
           </div>
           <img
             src={nickgraham}
             alt="giftstart-mockup"
             className="project__img"
+            loading="lazy"
           />
         </section>
       </section>

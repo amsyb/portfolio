@@ -15,7 +15,7 @@ const MediaBlockRight = ({ image, title, description, button, buttonLink }) => {
           <button onClick={goToLink}>{button}</button>
         </div>
         <div className="media__container">
-          <img src={image} alt={title} className="media__img" />
+          <img src={image} alt={title} className="media__img" loading="lazy" />
         </div>
       </section>
     </>

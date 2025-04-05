@@ -13,8 +13,8 @@
 }
 
 @mixin background-primary {
-  background-color: #2d2d2d;
-  border: 1px solid #6b6b6b;
+  background-color: #17181b;
+  border: 1px solid #242831;
   border-radius: 10px;
   padding: 1em;
   margin: 1em 0;
@@ -30,7 +30,7 @@
 @mixin global-padding {
   padding: 1em;
   @include tablet {
-    padding: 3em;
+    padding: 2em 6em;
   }
 }
 
