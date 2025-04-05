@@ -19,7 +19,7 @@ function Homepage() {
             </p>
           </div>
           <div className="homepage__profile">
-            <section class="container">
+            <section classname="container">
               <div className="homepage__availability">
                 <div class="circle"></div>
                 <p>open to work</p>
