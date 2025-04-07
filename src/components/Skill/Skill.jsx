@@ -8,7 +8,7 @@ function Skill() {
     <>
       <section className="card__all">
         <div className="card">
-          <img src={VisualDesign} alt="" className="card__img" />
+          <img src={VisualDesign} alt="" className="card__img" loading="lazy" />
           <h3 className="card__title"> Visual Identity and Brand Alignment</h3>
           <p className="card__text">
             I have created both new visual identities and led brand refresh
@@ -20,7 +20,7 @@ function Skill() {
           </p>
         </div>
         <div className="card">
-          <img src={Systems} alt="" className="card__img" />
+          <img src={Systems} alt="" className="card__img" loading="lazy" />
           <h3 className="card__title"> Design Documentation and Systems</h3>
           <p className="card__text">
             In my previous role, I led the development of wireframes and
@@ -32,7 +32,12 @@ function Skill() {
           </p>
         </div>
         <div className="card">
-          <img src={Collaboration} alt="" className="card__img" />
+          <img
+            src={Collaboration}
+            alt=""
+            className="card__img"
+            loading="lazy"
+          />
           <h3 className="card__title">Cross-Functional Collaboration</h3>
           <p className="card__text">
             I have collaborated closely with clients and developers to analyze

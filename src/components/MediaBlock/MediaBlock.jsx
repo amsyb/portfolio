@@ -7,7 +7,7 @@ const MediaBlockLeft = ({ image, title, description }) => {
     <>
       <section className="media final__product">
         <div className="media__container">
-          <img src={image} alt={title} className="media__img" />
+          <img src={image} alt={title} className="media__img" loading="lazy" />
         </div>
         <div className="media__text">
           <h4>{title}</h4>

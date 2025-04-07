@@ -5,7 +5,7 @@ const MediaBlockTop = ({ title, text, image }) => {
     <>
       <section>
         <div className="block__container">
-          <img src={image} alt={title} className="block__img" />
+          <img src={image} alt={title} className="block__img" loading="lazy" />
         </div>
         <div className="block__copy">
           <h4>{title}</h4>

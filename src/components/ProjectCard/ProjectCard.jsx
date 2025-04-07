@@ -28,6 +28,7 @@ function ProjectCard() {
             src={tacoBoutIt}
             alt="giftstart-mockup"
             className="project__img"
+            loading="lazy"
           />
         </section>
         <section className="project__card">
@@ -49,6 +50,7 @@ function ProjectCard() {
             src={giftstart}
             alt="giftstart-mockup"
             className="project__img"
+            loading="lazy"
           />
         </section>
         <section className="project__card">
@@ -70,6 +72,7 @@ function ProjectCard() {
             src={nickgraham}
             alt="giftstart-mockup"
             className="project__img"
+            loading="lazy"
           />
         </section>
       </section>
