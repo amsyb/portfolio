@@ -23,7 +23,7 @@
 .about__description {
   display: flex;
   flex-direction: column;
-  gap: 0.5em;
+  gap: 2em;
 }
 
 .test {
@@ -39,4 +39,8 @@
   align-items: center;
   width: 50%;
   padding-bottom: 2em;
+}
+
+.about__paragraph {
+  line-height: 25px;
 }
