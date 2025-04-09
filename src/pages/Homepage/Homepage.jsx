@@ -9,7 +9,7 @@ function Homepage() {
         <section className="homepage__copy">
           <div className="homepage__about">
             <p>
-              With three years of UX/UI design i’ve led projects from ideation
+              With three years of UX/UI design, i’ve led projects from ideation
               to deployment, always focusing on creating intuitive experiences
               that meet user needs.
             </p>
@@ -21,10 +21,12 @@ function Homepage() {
           </div>
           <div className="homepage__profile">
             <section class="container">
-              <div className="homepage__availability">
-                <div class="circle"></div>
-                <p>open to work</p>
-              </div>
+              <a href="">
+                <div className="homepage__availability">
+                  <div class="circle"></div>
+                  <p>open to work</p>
+                </div>
+              </a>
             </section>
             <h1 className="homepage__title">Anna Sybingco</h1>
           </div>
