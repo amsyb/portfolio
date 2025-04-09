@@ -9,8 +9,9 @@ function Homepage() {
         <section className="homepage__copy">
           <div className="homepage__about">
             <p>
-              I’ve led projects from ideation to deployment, always focusing on
-              creating intuitive experiences that meet user needs.
+              With three years of UX/UI design i’ve led projects from ideation
+              to deployment, always focusing on creating intuitive experiences
+              that meet user needs.
             </p>
             <p>
               Now, with a software engineering diploma in hand, I'm eager to
