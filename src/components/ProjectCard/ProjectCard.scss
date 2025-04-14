@@ -43,3 +43,10 @@
     width: 40%;
   }
 }
+
+.project__dev {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding-top: 1em;
+}
