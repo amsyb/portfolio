@@ -9,7 +9,7 @@ function ProjectCard() {
   return (
     <>
       <section className="project">
-        <h2>Client Projects</h2>
+        <h2 className="project__title">Professional Work</h2>
         <section className="project__card">
           <div className="project__description">
             <h2>Giftstart</h2>
@@ -22,7 +22,7 @@ function ProjectCard() {
               with a Netty award for its innovation.
             </p>
             <Link to="project/giftstart">
-              <button>View Case Study</button>
+              <button className="project__btn">View Case Study</button>
             </Link>
           </div>
           <img
@@ -44,7 +44,7 @@ function ProjectCard() {
               their full product catalog.
             </p>
             <Link to="project/nickgraham">
-              <button>View Case Study</button>
+              <button className="project__btn">View Case Study</button>
             </Link>
           </div>
           <img
@@ -55,7 +55,7 @@ function ProjectCard() {
           />
         </section>
         <section className="project__dev">
-          <h2>Class Projects</h2>
+          <h2 className="project__title">Academic Work</h2>
           <section className="project__card">
             <div className="project__description">
               <h2>Taco 'Bout It</h2>
@@ -68,7 +68,7 @@ function ProjectCard() {
                 place orders, and earn rewards.
               </p>
               <Link to="project/taco-restaurant">
-                <button>View Case Study</button>
+                <button className="project__btn">View Case Study</button>
               </Link>
             </div>
             <img
