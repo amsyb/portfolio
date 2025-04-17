@@ -21,7 +21,7 @@ function ProjectCard() {
               system for a baby registry. The site was subsequently recognized
               with a Netty award for its innovation.
             </p>
-            <Link to="project/giftstart">
+            <Link to="/giftstart">
               <button className="project__btn">View Case Study</button>
             </Link>
           </div>
@@ -43,7 +43,7 @@ function ProjectCard() {
               homepage that followed best practices, effectively showcasing
               their full product catalog.
             </p>
-            <Link to="project/nickgraham">
+            <Link to="/nickgraham">
               <button className="project__btn">View Case Study</button>
             </Link>
           </div>
@@ -67,13 +67,13 @@ function ProjectCard() {
                 Express, JavaScript, Node.js, and CSS, enabling customers to
                 place orders, and earn rewards.
               </p>
-              <Link to="project/taco-restaurant">
+              <Link to="/taco-restaurant">
                 <button className="project__btn">View Case Study</button>
               </Link>
             </div>
             <img
               src={tacoBoutIt}
-              alt="giftstart-mockup"
+              alt="taco-bout-it-mockup"
               className="project__img"
               loading="lazy"
             />
