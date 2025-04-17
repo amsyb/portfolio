@@ -39,7 +39,9 @@ const Summary = ({
             </div>
           </div>
         </div>
-        <button onClick={goToLink}>{button}</button>
+        <button className="btn" onClick={goToLink}>
+          {button}
+        </button>
       </section>
     </>
   );
