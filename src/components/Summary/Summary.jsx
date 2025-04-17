@@ -19,7 +19,7 @@ const Summary = ({
       <section className="summary">
         <div className="summary__copy">
           <div className="summary__overview">
-            <h3>Overview</h3>
+            <h3>Highlights</h3>
             <p>{overview1}</p>
             <p>{overview2}</p>
             <p>{overview3}</p>

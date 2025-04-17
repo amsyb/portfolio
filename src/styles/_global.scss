@@ -8,6 +8,7 @@
   padding: 0;
   text-decoration: none;
   color: inherit;
+  overflow: visible;
 }
 
 :root {
@@ -70,7 +71,7 @@ body {
   color: $primary-text;
 }
 
-button {
+.btn {
   background-image: linear-gradient(to right, #bfbfff 0%, #8db8f9 100%);
   background-position: left;
   transition: background-position 1s, background-image 0.3s ease-in-out;

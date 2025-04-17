@@ -4,6 +4,9 @@
   display: flex;
   align-items: center;
   width: 100%;
+  position: relative;
+  overflow: visible;
+  z-index: 10;
   @include global-padding;
 }
 
@@ -12,7 +15,6 @@
   justify-content: center;
   gap: 2em;
   text-decoration: none;
-  color: #333;
   padding: 8px 12px;
   transition: color 0.3s ease, border-bottom 0.3s ease;
 
