@@ -16,7 +16,7 @@ function About() {
                 cross-functional teams—including developers, product managers,
                 and marketers—to bring ideas to life across a variety of
                 projects, from websites and landing pages to design systems and
-                interactive prototypes. Some highlights include:
+                interactive prototypes.
               </p>
               {/* <ul>
                 <li>
