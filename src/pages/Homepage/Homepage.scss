@@ -3,6 +3,7 @@
 
 .homepage {
   @include global-padding;
+  overflow: visible;
 }
 
 .container {

@@ -1,7 +1,7 @@
 import "./Resume.scss";
-import resume from "../../assets/images/desktop-resume.png";
-import mobileResume from "../../assets/images/mobile-resume.png";
-import resumePDF from "../../assets/images/Anna-Sybingco-Software-Engineer.pdf";
+import resume from "../../assets/images/resume-desktop.png";
+import mobileResume from "../../assets/images/resume-mobile.png";
+import resumePDF from "../../assets/images/Anna-Sybingco-Resume.pdf";
 
 function Resume() {
   return (

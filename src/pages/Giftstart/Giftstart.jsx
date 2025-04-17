@@ -11,6 +11,7 @@ function Giftstart() {
     <>
       <section className="casestudy">
         <h1>Giftstart</h1>
+        <p>Building a Scalable Design System for a Gifting Platform</p>
         <Summary
           overview1="• Led UI brand design initiatives, crafting a scalable design system that ensured consistency and ease of implementation for developers. Collaborated closely with engineers to translate design concepts into reusable front-end components."
           overview2="• Integrated user research insights to align UI elements with usability standards and development best practices, ensuring both efficiency and maintainability."

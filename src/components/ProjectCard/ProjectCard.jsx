@@ -9,28 +9,7 @@ function ProjectCard() {
   return (
     <>
       <section className="project">
-        <section className="project__card">
-          <div className="project__description">
-            <h2>Taco 'Bout It</h2>
-            <div className="project__category">
-              <p>Full Stack Development • JavaScript • React</p>
-            </div>
-            <p>
-              Designed and developed a full-stack web application using Express,
-              JavaScript, Node.js, and CSS, enabling customers to place orders,
-              and earn rewards.
-            </p>
-            <Link to="project/taco-restaurant">
-              <button>View Case Study</button>
-            </Link>
-          </div>
-          <img
-            src={tacoBoutIt}
-            alt="giftstart-mockup"
-            className="project__img"
-            loading="lazy"
-          />
-        </section>
+        <h2 className="project__title">Professional Work</h2>
         <section className="project__card">
           <div className="project__description">
             <h2>Giftstart</h2>
@@ -43,7 +22,7 @@ function ProjectCard() {
               with a Netty award for its innovation.
             </p>
             <Link to="project/giftstart">
-              <button>View Case Study</button>
+              <button className="project__btn">View Case Study</button>
             </Link>
           </div>
           <img
@@ -65,7 +44,7 @@ function ProjectCard() {
               their full product catalog.
             </p>
             <Link to="project/nickgraham">
-              <button>View Case Study</button>
+              <button className="project__btn">View Case Study</button>
             </Link>
           </div>
           <img
@@ -74,6 +53,31 @@ function ProjectCard() {
             className="project__img"
             loading="lazy"
           />
+        </section>
+        <section className="project__dev">
+          <h2 className="project__title">Academic Work</h2>
+          <section className="project__card">
+            <div className="project__description">
+              <h2>Taco 'Bout It</h2>
+              <div className="project__category">
+                <p>Full Stack Development • JavaScript • React</p>
+              </div>
+              <p>
+                Designed and developed a full-stack web application using
+                Express, JavaScript, Node.js, and CSS, enabling customers to
+                place orders, and earn rewards.
+              </p>
+              <Link to="project/taco-restaurant">
+                <button className="project__btn">View Case Study</button>
+              </Link>
+            </div>
+            <img
+              src={tacoBoutIt}
+              alt="giftstart-mockup"
+              className="project__img"
+              loading="lazy"
+            />
+          </section>
         </section>
       </section>
     </>
