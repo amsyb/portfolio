@@ -50,7 +50,7 @@ The project’s success led to industry recognition, earning an Innovative Desig
             copy1="• Create developer-friendly design systems that support scalable front-end builds."
             copy2="• Facilitate communication between designers and engineers to align UX with technical feasibility."
             copy3="• Design component-based UI systems, leveraging Tailwind for efficiency and maintainability."
-            copy4="This experience reinforced my passion for crafting intuitive user experiences while ensuring seamless front-end implementation—a skill set I’m eager to bring to a software engineering role"
+            copy4="This experience reinforced my passion for crafting intuitive user experiences while ensuring seamless front-end implementation, a skill set I’m eager to bring to my next role"
           ></TextBlock>
         </div>
       </section>

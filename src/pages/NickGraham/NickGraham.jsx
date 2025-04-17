@@ -71,7 +71,7 @@ The project’s success led to industry recognition, earning an Innovative Desig
           copy1="• Implemented structured navigation, interactive elements, and an improved search experience, which aligns with front-end work involving user flows, accessibility, and performance optimizations"
           copy2="• Designed a homepage structure that allowed the client to easily update content post-launch, demonstrating an understanding of modular and reusable UI components—similar to front-end development best practices."
           copy3="• Worked closely with developers to ensure design feasibility, scalability across devices, and seamless implementation—skills that directly translate to working on a front-end engineering team."
-          copy4="This project reinforced my passion for crafting thoughtful, adaptable UI solutions that enhance both business goals and user experience while strengthening my front-end development skills."
+          copy4="This project reinforced my passion for crafting thoughtful, adaptable UI solutions that enhance both business goals and user experience."
         ></TextBlock>
       </section>
     </>
