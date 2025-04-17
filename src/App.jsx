@@ -17,9 +17,9 @@ function App() {
           <Route path="/" element={<Homepage />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/project/taco-restaurant" element={<TacoRestaurant />} />
-          <Route path="/project/giftstart" element={<Giftstart />} />
-          <Route path="/project/nickgraham" element={<NickGraham />} />
+          <Route path="/taco-restaurant" element={<TacoRestaurant />} />
+          <Route path="/giftstart" element={<Giftstart />} />
+          <Route path="/nickgraham" element={<NickGraham />} />
         </Routes>
         <Footer />
       </BrowserRouter>
