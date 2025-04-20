@@ -7,7 +7,7 @@ function Resume() {
   return (
     <div className="resume">
       <a href={resumePDF} download="Resume">
-        <button>Download PDF</button>
+        <button className="btn">Download PDF</button>
       </a>
       <img src={resume} alt="resume" className="resume__img" />
       <img
