@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">Software engineer from Toronto, ON</p>
+<p align="left">Based in San Francisco, CA</p>
 
 ###
 
@@ -10,7 +10,7 @@
 
 ###
 
-<p align="left">📚 Completed a software engineering bootcamp where I learned full-stack development, with a focus on front-end technologies.<br><br>🧠 Strong foundation in iterative design processes, Agile development, and accessibility.<br><br>🧩 Experienced in cross-functional collaboration, ensuring designs and code align with business objectives.</p>
+<p align="left">🎓 Bachelor of Science, Software Engineering graduate with a foundation in full-stack development, specializing in front-end technologies.<br><br>🧠 Strong foundation in iterative design processes, Agile development, and accessibility.<br><br>🧩 Experienced in cross-functional collaboration, ensuring designs and code align with business objectives.</p>
 
 ###
 
@@ -27,6 +27,7 @@
 ###
 
 <div align="left">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
@@ -36,10 +37,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg" height="40" alt="heroku logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" alt="figma logo"  />
 </div>
