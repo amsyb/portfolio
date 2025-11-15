@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import tacoBoutIt from "../../assets/images/tcs.png";
 import giftstart from "../../assets/images/gsp.png";
 import nickgraham from "../../assets/images/ng-final.png";
+import doorwai from "../../assets/images/dw.png";
 import "./ProjectCard.scss";
 import "../../styles/_global.scss";
 
@@ -55,29 +56,53 @@ function ProjectCard() {
           />
         </section>
         <section className="project__dev">
-          <h2 className="project__title">Academic Work</h2>
+          <h2 className="project__title">Personal Projects</h2>
           <section className="project__card">
             <div className="project__description">
-              <h2>Taco 'Bout It</h2>
+              <h2>Doorwai</h2>
               <div className="project__category">
-                <p>Full Stack Development • JavaScript • React</p>
+                <p>Full Stack • Typescript • AI Integration</p>
               </div>
               <p>
-                Designed and developed a full-stack web application using
-                Express, JavaScript, Node.js, and CSS, enabling customers to
-                place orders, and earn rewards.
+                🏆 Google Technology 1st Place Winner. Developed an AI-powered
+                full-stack application to streamline access to homeless shelter
+                resources for at-risk youth. Leveraged AI to make automated
+                phone calls to shelters, check bed availability, and pre-fill
+                intake forms for users.
               </p>
-              <Link to="/taco-restaurant">
+              <Link to="/doorwai">
                 <button className="project__btn">View Case Study</button>
               </Link>
             </div>
             <img
-              src={tacoBoutIt}
-              alt="taco-bout-it-mockup"
+              src={doorwai}
+              alt="doorwai-mockup"
               className="project__img"
               loading="lazy"
             />
           </section>
+        </section>
+        <section className="project__card">
+          <div className="project__description">
+            <h2>Taco 'Bout It</h2>
+            <div className="project__category">
+              <p>Full Stack Development • JavaScript • React</p>
+            </div>
+            <p>
+              Designed and developed a full-stack web application using Express,
+              JavaScript, Node.js, and CSS, enabling customers to place orders,
+              and earn rewards.
+            </p>
+            <Link to="/taco-restaurant">
+              <button className="project__btn">View Case Study</button>
+            </Link>
+          </div>
+          <img
+            src={tacoBoutIt}
+            alt="taco-bout-it-mockup"
+            className="project__img"
+            loading="lazy"
+          />
         </section>
       </section>
     </>

@@ -6,6 +6,7 @@ import Resume from "./pages/Resume/Resume";
 import TacoRestaurant from "./pages/TacoRestaurant/TacoRestaurant";
 import Giftstart from "./pages/Giftstart/Giftstart";
 import NickGraham from "./pages/NickGraham/NickGraham";
+import Doorwai from "./pages/Doorwai/Doorwai";
 import Footer from "./components/Footer/Footer";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/taco-restaurant" element={<TacoRestaurant />} />
           <Route path="/giftstart" element={<Giftstart />} />
           <Route path="/nickgraham" element={<NickGraham />} />
+          <Route path="/doorwai" element={<Doorwai />} />
         </Routes>
         <Footer />
       </BrowserRouter>
