@@ -24,8 +24,9 @@ function Doorwai() {
 
         <TextBlock
           title="Introduction"
-          copy1="The reality is that youth experiencing homelessness face fragmented intake processes across disconnected agencies."
-          copy2="The problem we solve: Traditional intake systems force youth to complete repetitive forms at each agency with no data portability."
+          copy1="Youth experiencing homelessness often navigate a maze of disconnected agencies, each with its own intake process, requirements, and systems. The reality is that support does exist, but the path to accessing it is fragmented, overwhelming, and exhausting. 
+Traditional intake systems aren’t designed with the lived realities of youth in mind. Instead, they force young people to repeatedly share the same information across multiple organizations, filling out form after form with no continuity, no shared data, and no sense of forward progress. This creates unnecessary friction, delays the support they need, and can even discourage them from seeking help altogether.
+"
         ></TextBlock>
 
         <h2>Our Solution</h2>
@@ -35,23 +36,24 @@ function Doorwai() {
           image={navigation}
         ></MediaBlockLeft>
 
-        <div className="giftstart__takeaways">
-          <MediaBlockRight
-            image={finalProduct}
-            title="Final Product"
-            description="Giftstart expanded my previous employer’s market reach by establishing a strong brand and scalable UI framework. A highlight was the intuitive gift registry UI, which enhanced user experience and translated seamlessly into front-end components.
+        <MediaBlockRight
+          image={finalProduct}
+          title="Final Product"
+          description="Giftstart expanded my previous employer’s market reach by establishing a strong brand and scalable UI framework. A highlight was the intuitive gift registry UI, which enhanced user experience and translated seamlessly into front-end components.
 The project’s success led to industry recognition, earning an Innovative Design award at the Netty Awards.
 "
-            button="View Site"
-            buttonLink="https://nickgraham.com/"
-          ></MediaBlockRight>
+          button="View Site"
+          buttonLink="https://giftstart.ca/"
+        ></MediaBlockRight>
+        <div className="giftstart__takeaways">
+          <TextBlock
+            title="Next Steps"
+            copy1="• Location-Based Directions: Integrate GPS to provide navigation to the next resource appointment"
+            copy2="• Medical Information Integration: Add critical health data (allergies, medications) to the QR code for emergency situations "
+            copy3="• Enhanced Janice Capabilities: Train Janice to send follow-up emails to providers and generate summaries of findings"
+            copy4="This experience reinforced my passion for crafting intuitive user experiences while ensuring seamless front-end implementation, a skill set I’m eager to bring to my next role"
+          ></TextBlock>
         </div>
-        <TextBlock
-          title="Next Steps"
-          copy1="• Location-Based Directions: Integrate GPS to provide navigation to the next resource appointment "
-          copy2="• Medical Information Integration: Add critical health data (allergies, medications) to the QR code for emergency situations"
-          copy3="• Enhanced Janice Capabilities: Train Janice to send follow-up emails to providers and generate summaries of findings"
-        ></TextBlock>
       </section>
     </>
   );
