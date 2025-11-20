@@ -1,10 +1,7 @@
 import Summary from "../../components/Summary/Summary";
 import TextBlock from "../../components/TextBlock/TextBlock";
 import MediaBlockRight from "../../components/MediaBlockRight/MediaBlockRight";
-import MediaBlockLeft from "../../components/MediaBlock/MediaBlock";
-
-import navigation from "../../assets/images/ng-navigation.png";
-import finalProduct from "../../assets/images/ng-final.png";
+import dwfp from "../../assets/images/dw-fp.png";
 
 function Doorwai() {
   return (
@@ -38,7 +35,7 @@ Traditional intake systems aren’t designed with the lived realities of youth i
         </div>
 
         <MediaBlockRight
-          image={finalProduct}
+          image={dwfp}
           title="Final Product"
           description="These key features address the core problems we identified: fragmented systems, repetitive paperwork, and barriers to accessing support."
           button="View Github"
