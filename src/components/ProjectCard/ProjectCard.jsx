@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Lilt from "../../assets/images/lilt.png";
 import tacoBoutIt from "../../assets/images/tcs.png";
 import giftstart from "../../assets/images/gsp.png";
 import nickgraham from "../../assets/images/ng-final.png";
@@ -84,6 +85,29 @@ function ProjectCard() {
         </section>
         <section className="project__card">
           <div className="project__description">
+            <h2>Lilt</h2>
+            <div className="project__category">
+              <p>Full Stack • JavaScript • React • Vercel</p>
+            </div>
+            <p>
+              Four years of bartending experience informed the need for a user
+              friendly resource for bartenders by bartenders. Designed and
+              developed a responsive full-stack web application using
+              JavaScript, SCSS and Vercel.
+            </p>
+            <Link to="/lilt">
+              <button className="project__btn">View Case Study</button>
+            </Link>
+          </div>
+          <img
+            src={Lilt}
+            alt="project-preview"
+            className="project__img"
+            loading="lazy"
+          />
+        </section>
+        <section className="project__card">
+          <div className="project__description">
             <h2>Taco 'Bout It</h2>
             <div className="project__category">
               <p>Full Stack Development • JavaScript • React</p>
@@ -94,28 +118,6 @@ function ProjectCard() {
               and earn rewards.
             </p>
             <Link to="/taco-restaurant">
-              <button className="project__btn">View Case Study</button>
-            </Link>
-          </div>
-          <img
-            src={tacoBoutIt}
-            alt="taco-bout-it-mockup"
-            className="project__img"
-            loading="lazy"
-          />
-        </section>
-        <section className="project__card">
-          <div className="project__description">
-            <h2>Lilt</h2>
-            <div className="project__category">
-              <p>Full Stack Development • JavaScript • React</p>
-            </div>
-            <p>
-              Designed and developed a full-stack web application using Express,
-              JavaScript, Node.js, and CSS, this comprehensive reference for
-              cocktail is designed by a bartender for bartenders
-            </p>
-            <Link to="/lilt">
               <button className="project__btn">View Case Study</button>
             </Link>
           </div>
