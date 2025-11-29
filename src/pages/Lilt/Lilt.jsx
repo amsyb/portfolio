@@ -1,7 +1,7 @@
 import Summary from "../../components/Summary/Summary";
 import TextBlock from "../../components/TextBlock/TextBlock";
 import MediaBlockRight from "../../components/MediaBlockRight/MediaBlockRight";
-import lilt from "../../assets/images/Lilt.png";
+import lilt from "../../assets/images/lilt.png";
 function Lilt() {
   return (
     <>
