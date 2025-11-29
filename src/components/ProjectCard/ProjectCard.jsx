@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Lilt from "../../assets/images/lilt.png";
 import tacoBoutIt from "../../assets/images/tcs.png";
 import giftstart from "../../assets/images/gsp.png";
 import nickgraham from "../../assets/images/ng-final.png";
@@ -81,6 +82,29 @@ function ProjectCard() {
               loading="lazy"
             />
           </section>
+        </section>
+        <section className="project__card">
+          <div className="project__description">
+            <h2>Lilt</h2>
+            <div className="project__category">
+              <p>Full Stack • JavaScript • React • Vercel</p>
+            </div>
+            <p>
+              Four years of bartending experience informed the need for a user
+              friendly resource for bartenders by bartenders. Designed and
+              developed a responsive full-stack web application using
+              JavaScript, SCSS and Vercel.
+            </p>
+            <Link to="/lilt">
+              <button className="project__btn">View Case Study</button>
+            </Link>
+          </div>
+          <img
+            src={Lilt}
+            alt="project-preview"
+            className="project__img"
+            loading="lazy"
+          />
         </section>
         <section className="project__card">
           <div className="project__description">
