@@ -8,7 +8,7 @@ function Lilt() {
       <section className="casestudy">
         <h1>Lilt</h1>
         <Summary
-          overview1="• Led end-to-end development and design by handling UX/UI design, front-end implementation, and back-end development to deliver a fully functional product."
+          overview1="• Full-Stack Ownership: Architected and executed the complete product lifecycle—from initial UX research and interface design through front-end development and back-end infrastructure—delivering a production-ready application as sole developer and designer."
           overview2="• Designed and developed responsive, user-centered interfaces."
           overview3="• Launced project on vercel with next steps to have it hosted on google app store"
           duration="Oct 2025"
@@ -35,7 +35,7 @@ function Lilt() {
         <MediaBlockRight
           image={lilt}
           title="Final Product"
-          description="These key features address the core problems we identified: fragmented systems, repetitive paperwork, and barriers to accessing support."
+          description="drnks is a dynamic tool that evolves with the industry. Designed to support both the seasoned professional navigating a Friday night rush and the enthusiastic apprentice learning the ropes, it delivers clarity, speed, and consistency to every pour. By blending operational insight with intuitive design, drnks helps venues elevate the craft of service at scale."
           button="View Site"
           buttonLink="https://drnks.vercel.app/"
         ></MediaBlockRight>
