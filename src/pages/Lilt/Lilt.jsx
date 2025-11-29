@@ -8,9 +8,9 @@ function Lilt() {
       <section className="casestudy">
         <h1>Lilt</h1>
         <Summary
-          overview1="• Full-Stack Ownership: Architected and executed the complete product lifecycle—from initial UX research and interface design through front-end development and back-end infrastructure—delivering a production-ready application as sole developer and designer."
-          overview2="• Designed and developed responsive, user-centered interfaces."
-          overview3="• Launced project on vercel with next steps to have it hosted on google app store"
+          overview1="• Full-Stack Ownership: Architected and executed the complete product lifecycle, from initial UX research and interface design through front-end development and back-end infrastructure, delivering a production-ready application as sole developer and designer."
+          overview2="• Crafted an intuitive, mobile-first interface that prioritizes accessibility and speed, ensuring bartenders can find critical information in seconds, even during peak service hours."
+          overview3="• Successfully launched on Vercel with optimized performance metrics, with a strategic roadmap for Google Play Store distribution to expand reach across mobile platforms."
           duration="Oct 2025"
           tools="Figma, React, Vercel"
           role="Full Stack Developer"
@@ -20,15 +20,16 @@ function Lilt() {
 
         <TextBlock
           title="Insight"
-          copy1="Born from the frustration of forgetting that obscure classic recipe, Lilt bridges the gap between professional knowledge and practical application. I created this resource to be what I needed when learning the craft; a reliable, instant reference that understands the pressure behind the bar.
+          copy1="Born from the real-world friction of forgetting specs mid-service, drnks transforms institutional bartending knowledge into an instant, reliable resource. This isn't just another recipe app; it's a solution to the cognitive load problem every bartender faces: maintaining encyclopedic drink knowledge while managing the chaos of a busy bar. I built the tool I needed when I was learning the craft, one that respects your time, understands the pressure, and delivers answers without the noise.
 "
         ></TextBlock>
 
         <div className="giftstart__takeaways">
           <TextBlock
             title="Key Features"
-            copy1="• Sort, search and learn about classic cocktails, and their origins"
-            copy2="• Most sites require enless scrolling to get to the recipe, Lilt gives you the recipe first"
+            copy1="• Intelligent Discovery: Filter by base spirit and explore an expertly curated library of classic cocktails, complete with historical context and origin stories that deepen your understanding of the craft."
+            copy2="• Unlike traditional cocktail sites that bury recipes beneath ads and lengthy narratives, drnks respects the urgency of your search—delivering the recipe immediately, with context available when you want it, not when we force it on you."
+            cpy3="• Built for real-world conditions where every second counts and precision matters."
           ></TextBlock>
         </div>
 
