@@ -45,7 +45,6 @@ function Lilt() {
             title="Next Steps"
             copy1="• Expand drink availability"
             copy2="• Partner with local restaurants to include thier bar classics"
-            copy3="• Enhanced Janice Capabilities: Train Janice to send follow-up emails to providers and generate summaries of findings"
             copy4="I loved working on a project that allowed me to utilize my past hospitality experience"
           ></TextBlock>
         </div>
