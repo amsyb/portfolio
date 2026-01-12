@@ -19,8 +19,8 @@ function Giftstart() {
           duration="Jan 2022 - June 2023"
           tools="Tailwind, Figma, Adobe Illustrator"
           role="UX/UI Designer"
-          button="View Site"
-          buttonLink="https://giftstart.ca/"
+          // button="View Site"
+          // buttonLink="https://giftstart.ca/"
         ></Summary>
 
         <TextBlock
@@ -41,8 +41,8 @@ function Giftstart() {
           description="Giftstart expanded my previous employer’s market reach by establishing a strong brand and scalable UI framework. A highlight was the intuitive gift registry UI, which enhanced user experience and translated seamlessly into front-end components.
 The project’s success led to industry recognition, earning an Innovative Design award at the Netty Awards.
 "
-          button="View Site"
-          buttonLink="https://giftstart.ca/"
+          // button="View Site"
+          // buttonLink="https://giftstart.ca/"
         ></MediaBlockRight>
         <div className="giftstart__takeaways">
           <TextBlock
