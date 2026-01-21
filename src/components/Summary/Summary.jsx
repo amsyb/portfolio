@@ -39,9 +39,11 @@ const Summary = ({
             </div>
           </div>
         </div>
+        {button && (
         <button className="btn" onClick={goToLink}>
           {button}
         </button>
+        )}
       </section>
     </>
   );
