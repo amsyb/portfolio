@@ -1,5 +1,6 @@
 import "./About.scss";
 import tech from "../../assets/images/tech.png";
+import headshot from "../../assets/images/bw-headshot.png";
 
 function About() {
   return (
@@ -7,7 +8,8 @@ function About() {
       <section>
         <div className="about">
           <div className="about__text">
-            <h1>Hi I'm Anna</h1>
+            <h1>I'm Anna Sybingco</h1>
+            <img src={headshot} alt="headshot" />
             <div className="about__description">
               <p className="about__paragraph">
                 With a background in user experience and a growing foundation in
