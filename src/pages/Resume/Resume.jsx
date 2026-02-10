@@ -1,7 +1,7 @@
 import "./Resume.scss";
-import resume from "../../assets/images/desktop-resume-10.png";
-import mobileResume from "../../assets/images/mobile-resume-10.png";
-import resumePDF from "../../assets/images/Resume.pdf";
+import resume from "../../assets/images/desktop-resume.png";
+import mobileResume from "../../assets/images/mobile-resume.png";
+import resumePDF from "../../assets/images/desktop-resume.pdf";
 
 function Resume() {
   return (
