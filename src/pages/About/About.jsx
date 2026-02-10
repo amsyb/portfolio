@@ -1,6 +1,6 @@
 import "./About.scss";
-import tech from "../../assets/images/tech.png";
 import headshot from "../../assets/images/bw-headshot.png";
+import InfiniteTechStackScroll from "../../components/TechStack/TechStack";
 
 function About() {
   return (
@@ -33,7 +33,7 @@ function About() {
           </div>
           <div className="test">
             <h4>Tools & Technologies</h4>
-            <img src={tech} alt="" className="about__tech" loading="lazy" />
+            <InfiniteTechStackScroll />
           </div>
         </div>
       </section>
