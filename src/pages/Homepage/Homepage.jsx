@@ -14,8 +14,8 @@ function Homepage() {
               that meet user needs.
             </p>
             <p>
-              Now, with a software engineering diploma in hand, I'm eager to
-              tackle novel challenges and build intuitive, accessible, and
+              Now, with a Bachelor of Science in Software Engineering, I'm eager
+              to tackle novel challenges and build intuitive, accessible, and
               scalable solutions.
             </p>
           </div>

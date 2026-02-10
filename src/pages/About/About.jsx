@@ -23,8 +23,8 @@ function About() {
 
               <p className="about__paragraph">
                 I'm proficient in tools like Figma, and I recently attained a
-                Bachelor of Science Software Engineering Degree where I honed my
-                skills with React, AI integration and much more. Whether I’m
+                Bachelor of Science Software Engineering where I honed my skills
+                with React, AI integration and much more. Whether I’m
                 wireframing a new feature, optimizing a user flow, or building
                 out front-end components, I focus on clarity, usability, and
                 collaboration every step of the way.
