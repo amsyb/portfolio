@@ -8,6 +8,7 @@ import Giftstart from "./pages/Giftstart/Giftstart";
 import NickGraham from "./pages/NickGraham/NickGraham";
 import Doorwai from "./pages/Doorwai/Doorwai";
 import Lilt from "./pages/Lilt/Lilt";
+import Steevy from "./pages/Steevy/Steevy";
 import Footer from "./components/Footer/Footer";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/nickgraham" element={<NickGraham />} />
           <Route path="/doorwai" element={<Doorwai />} />
           <Route path="/lilt" element={<Lilt />} />
+          <Route path="/steevy" element={<Steevy />} />
         </Routes>
         <Footer />
       </BrowserRouter>

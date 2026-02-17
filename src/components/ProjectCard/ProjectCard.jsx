@@ -4,6 +4,7 @@ import tacoBoutIt from "../../assets/images/tcs.png";
 import giftstart from "../../assets/images/gsp.png";
 import nickgraham from "../../assets/images/ng-final.png";
 import doorwai from "../../assets/images/dw.png";
+import steevy from "../../assets/images/Steevy.png";
 import "./ProjectCard.scss";
 import "../../styles/_global.scss";
 
@@ -56,6 +57,30 @@ function ProjectCard() {
           </div>
           <img
             src={Lilt}
+            alt="project-preview"
+            className="project__img"
+            loading="lazy"
+          />
+        </section>
+        <section className="project__card">
+          <div className="project__description">
+            <h2>Steevy</h2>
+            <div className="project__category">
+              <p>Full Stack • OpenAI API • React • Vercel</p>
+            </div>
+            <p>
+              Navigating job interviews shouldn't mean drowning in generic
+              advice when what you need is personalized strategy. Designed and
+              developed a full-stack AI application using React, OpenAI API, and
+              Vercel that analyzes your specific background against real job
+              descriptions.
+            </p>
+            <Link to="/steevy">
+              <button className="project__btn">View Case Study</button>
+            </Link>
+          </div>
+          <img
+            src={steevy}
             alt="project-preview"
             className="project__img"
             loading="lazy"
