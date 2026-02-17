@@ -1,5 +1,10 @@
 .navbar__dropdown-container {
   position: relative;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    border-bottom: 1px solid #eee;
+  }
 }
 
 .navbar__dropdown-menu {
@@ -9,17 +14,28 @@
   display: flex;
   flex-direction: column;
   gap: 0.5em;
-  background: #242831;
+  background: white;
   padding: 0.5em;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   min-width: 150px;
-  border-radius: 10px;
+
+  @media (max-width: 768px) {
+    position: static;
+    box-shadow: none;
+    padding: 0.5em 0 0.5em 1em;
+    background: #f9f9f9;
+  }
 }
 
 .navbar__dropdown-item {
   transition: background-color 0.2s ease;
+  padding: 0.5em;
 
   &:hover {
-    background-color: #17181b;
+    background-color: #f0f0f0;
+  }
+
+  @media (max-width: 768px) {
+    padding: 0.75em 0.5em;
   }
 }
