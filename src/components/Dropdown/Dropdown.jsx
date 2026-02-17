@@ -21,6 +21,9 @@ function Dropdown() {
           <Link to="/lilt" className="navbar__dropdown-item">
             Lilt
           </Link>
+          <Link to="/steevy" className="navbar__dropdown-item">
+            Steevy
+          </Link>
           <Link to="/taco-restaurant" className="navbar__dropdown-item">
             Taco 'Bout It
           </Link>
