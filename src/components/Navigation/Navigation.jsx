@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import Logo from "../../assets/icons/logo.svg";
-// import Dropdown from "../Dropdown/Dropdown";
+import Dropdown from "../Dropdown/Dropdown";
 import "./Navigation.scss";
 
 function Navigation() {
@@ -17,7 +17,7 @@ function Navigation() {
           </Link>
         </div>
         <div className="navbar__right">
-          {/* <Dropdown /> */}
+          <Dropdown />
           <Link
             to="/about"
             className={`navbar__link ${
