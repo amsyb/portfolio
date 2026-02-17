@@ -69,12 +69,15 @@ body {
   font-family: "IBM Plex Sans";
   font-size: 16px;
   color: $primary-text;
+  line-height: 1.6;
 }
 
 .btn {
   background-image: linear-gradient(to right, #bfbfff 0%, #8db8f9 100%);
   background-position: left;
-  transition: background-position 1s, background-image 0.3s ease-in-out;
+  transition:
+    background-position 1s,
+    background-image 0.3s ease-in-out;
   height: 40px;
   border-radius: 20px;
   border: none;

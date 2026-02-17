@@ -8,12 +8,12 @@ function Steevy() {
       <section className="casestudy">
         <h1>Steevy</h1>
         <Summary
-          overview1="• Architected and delivered a full-stack AI-powered interview preparation platform, handling all aspects from UX design through backend API integration, deploying a production-ready application as sole developer and designer."
-          overview2="• Engineered an intelligent coaching system that analyzes resume content against job descriptions to generate personalized interview strategies, demonstrating practical application of LLM integration in career development tools."
-          overview3="• Designed a streamlined, single-page interface that transforms complex inputs, resumes, and job descriptions into actionable interview preparation materials within seconds, prioritizing speed and clarity for time-constrained job seekers."
+          overview1="• Architected and delivered a full-stack AI-powered interview preparation platform, handling all aspects from UX design through backend API integration."
+          overview2="• Coaching system that analyzes resume content against job descriptions to generate personalized interview strategies."
+          overview3="• Designed a streamlined, single-page interface that transforms complex inputs, resumes, and job descriptions into actionable interview preparation."
           duration="Feb 2026"
           tools="React, OpenAI API (OpenRouter), Vercel"
-          role="Full Stack Developer & Brand Designer"
+          role="Full Stack Developer & UX Designer"
           button="View Site"
           buttonLink="https://steevy.vercel.app/"
         ></Summary>
@@ -30,7 +30,7 @@ function Steevy() {
             copy1="• Analyzes your resume against the specific job description to identify which experiences to emphasize, creating a personalized strategy rather than generic advice."
             copy2="• Choose between comprehensive interview notes or focused question generation, giving users control over their preparation approach.
 "
-            cpy3="• Delivers results in clean, markdown-formatted output that's immediately usable, no fluff, no ads, just the preparation materials you need when interview anxiety is high and time is short.
+            copy3="• Delivers results in clean, markdown-formatted output that's immediately usable, no fluff, no ads, just the preparation materials you need when interview anxiety is high and time is short.
 "
           ></TextBlock>
         </div>
@@ -38,7 +38,7 @@ function Steevy() {
         <MediaBlockRight
           image={steevy}
           title="Final Product"
-          description="Steevy transforms the scattered, stressful process of interview preparation into a focused, confidence-building experience. By synthesizing resume content with job requirements through AI analysis, it helps candidates walk into interviews knowing exactly which stories to tell and which questions to prepare for. The tool serves both the career-switcher navigating unfamiliar territory and the experienced professional interviewing for a stretch role, providing clarity and structure when the stakes are highest."
+          description="Steevy transforms the scattered, stressful process of interview preparation into a focused, confidence-building experience. By synthesizing resume content with job requirements through AI analysis, it helps candidates walk into interviews knowing exactly which stories to tell and which questions to prepare for."
           button="View Site"
           buttonLink="https://steevy.vercel.app/"
         ></MediaBlockRight>
