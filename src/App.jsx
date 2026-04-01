@@ -9,6 +9,7 @@ import NickGraham from "./pages/NickGraham/NickGraham";
 import Doorwai from "./pages/Doorwai/Doorwai";
 import Lilt from "./pages/Lilt/Lilt";
 import Steevy from "./pages/Steevy/Steevy";
+import Owed from "./pages/Owed/Owed";
 import Footer from "./components/Footer/Footer";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route path="/doorwai" element={<Doorwai />} />
           <Route path="/lilt" element={<Lilt />} />
           <Route path="/steevy" element={<Steevy />} />
+          <Route path="/owed" element={<Owed />} />
         </Routes>
         <Footer />
       </BrowserRouter>
