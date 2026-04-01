@@ -7,7 +7,7 @@ import MediaBlockRight from "../../components/MediaBlockRight/MediaBlockRight";
 function Owed() {
   return (
     <>
-      <section>
+      <section className="casestudy">
         <h1> Owed</h1>
         <Summary
           overview1="• Wealthsimple Hackathon"
@@ -22,8 +22,8 @@ function Owed() {
 
         <TextBlock
           title="Overview"
-          copy1="As a young adult entering the workforce, understanding your employment rights isn't straightforward. Concerns about unfair wages, unpaid overtime, or wrongful termination are common — but the process for addressing them is fragmented, intimidating, and difficult to navigate without legal knowledge or professional support.
-There's no simple, accessible, one-stop tool for workers facing these situations. Most resources are buried in government websites, written in legal language, or require contacting an employer or agency before a worker is even sure of their rights. Owed was built to change that — making the process simple, private, and actionable."
+          copy1="As a young adult entering the workforce, understanding your employment rights isn't straightforward. Concerns about unfair wages, unpaid overtime, or wrongful termination are common, but the process for addressing them is fragmented, intimidating, and difficult to navigate without legal knowledge or professional support.
+There's no simple, accessible, one-stop tool for workers facing these situations. Most resources are buried in government websites, written in legal language, or require contacting an employer or agency before a worker is even sure of their rights. Owed was built to change that, making the process simple, private, and actionable."
         ></TextBlock>
         <div className="giftstart__takeaways">
           <TextBlock
@@ -35,31 +35,21 @@ There's no simple, accessible, one-stop tool for workers facing these situations
         </div>
         <MediaBlockRight
           video={OwedDemo}
-          title="Final Product"
-          description="Owed brings together rights information, wage calculations, and escalation pathways in one place — reducing the cognitive load workers face when navigating an unfamiliar system."
-          button="View Github"
-          buttonLink=""
+          title="Video Walkthrough"
+          description="Owed brings together rights information, wage calculations, and escalation pathways in one place, reducing the cognitive load workers face when navigating an unfamiliar system."
         ></MediaBlockRight>
 
         <div className="giftstart__takeaways">
           <TextBlock
             title="Critical Design Decision: Human Control"
-            copy1="The decision to take formal action, whether sending a demand letter or filing a complaint with the Ministry of Labour — must always remain with the user. AI can surface rights, calculate entitlements, and outline options, but it cannot fully account for someone's personal circumstances: their immigration status, job security fears, financial situation, or the power dynamics in their workplace."
+            copy1="The decision to take formal action, whether sending a demand letter or filing a complaint with the Ministry of Labour, must always remain with the user. AI can surface rights, calculate entitlements, and outline options, but it cannot fully account for someone's personal circumstances: their immigration status, job security fears, financial situation, or the power dynamics in their workplace."
             copy2="Getting this wrong doesn't just mean a bad recommendation, it could cost someone their job or their safety. The AI guides. The human decides. This principle shaped every product decision we made."
           ></TextBlock>
         </div>
 
-        <div className="giftstart__takeaways">
-          <TextBlock
-            title="Next Steps"
-            copy1="• Jurisdiction Expansion: Extend support beyond Ontario to cover federal workers and other provinces, each with their own employment standards"
-            copy2="• Document Generation: Allow users to generate and download customized demand letters directly from the platform"
-            copy3="• Anonymous Community Q&A: Let workers see anonymized situations similar to their own, reducing isolation and helping people recognize when their experience isn't unique"
-            copy4="This project reinforced my belief that the most impactful products handle real cognitive work on behalf of users, surfacing complexity so people can focus on making informed decisions, not navigating a system that was never designed for them."
-          ></TextBlock>
-        </div>
         <TextBlock
           title="Next Steps"
+          copy1="• Jurisdiction Expansion: Extend support beyond Ontario to cover federal workers and other provinces, each with their own employment standards"
           copy2="• Document Generation: Allow users to generate and download customized demand letters directly from the platform"
           copy3="• Anonymous Community Q&A: Let workers see anonymized situations similar to their own, reducing isolation and helping people recognize when their experience isn't unique"
           copy4="This project reinforced my belief that the most impactful products handle real cognitive work on behalf of users, surfacing complexity so people can focus on making informed decisions, not navigating a system that was never designed for them."
