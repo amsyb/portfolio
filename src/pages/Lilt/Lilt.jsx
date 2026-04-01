@@ -11,7 +11,7 @@ function Lilt() {
           overview1="• Architected and executed the complete product lifecycle, from initial UX research and interface design through front-end development and back-end infrastructure, delivering a production-ready application as sole developer and designer."
           overview2="• Crafted an intuitive, mobile-first interface that prioritizes accessibility and speed, ensuring bartenders can find critical information in seconds, even during peak service hours."
           overview3="• Successfully launched on Vercel with optimized performance metrics, with a strategic roadmap for Google Play Store distribution to expand reach across mobile platforms."
-          duration="Oct 2025"
+          duration="Dec 2025"
           tools="Figma, React, Vercel"
           role="Full Stack Developer"
           button="View Site"
