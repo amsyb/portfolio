@@ -4,6 +4,7 @@ import tacoBoutIt from "../../assets/images/tcs.png";
 import giftstart from "../../assets/images/gsp.png";
 import nickgraham from "../../assets/images/ng-final.png";
 import doorwai from "../../assets/images/dw.png";
+import owed from "../../assets/images/owed.png";
 import steevy from "../../assets/images/Steevy.png";
 import "./ProjectCard.scss";
 import "../../styles/_global.scss";
@@ -38,6 +39,30 @@ function ProjectCard() {
               loading="lazy"
             />
           </section>
+        </section>
+        <section className="project__card">
+          <div className="project__description">
+            <h2>Owed</h2>
+            <div className="project__category">
+              <p>Full Stack • JavaScript • AI Integration</p>
+            </div>
+            <p>
+              Navigating workplace rights as a young worker is overwhelming, and
+              there's no simple tool that makes it easier. Designed and
+              developed a private, AI-powered web application that helps workers
+              understand what they're owed and take action, without legal
+              expertise or employer involvement.
+            </p>
+            <Link to="/owed">
+              <button className="project__btn">View Case Study</button>
+            </Link>
+          </div>
+          <img
+            src={owed}
+            alt="project-preview"
+            className="project__img"
+            loading="lazy"
+          />
         </section>
         <section className="project__card">
           <div className="project__description">
@@ -86,7 +111,7 @@ function ProjectCard() {
             loading="lazy"
           />
         </section>
-        <section className="project__card">
+        {/* <section className="project__card">
           <div className="project__description">
             <h2>Taco 'Bout It</h2>
             <div className="project__category">
@@ -107,7 +132,7 @@ function ProjectCard() {
             className="project__img"
             loading="lazy"
           />
-        </section>
+        </section> */}
         <h2 className="project__title">UX/UI</h2>
         <section className="project__card">
           <div className="project__description">
