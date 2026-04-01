@@ -1,7 +1,7 @@
 import React from "react";
 import Summary from "../../components/Summary/Summary";
 import TextBlock from "../../components/TextBlock/TextBlock";
-import placeholder from "../../assets/images/bw-headshot.png";
+import OwedDemo from "../../assets/videos/Owed.mp4";
 import MediaBlockRight from "../../components/MediaBlockRight/MediaBlockRight";
 
 function Owed() {
@@ -17,7 +17,7 @@ function Owed() {
           tools="React, Figma, Claude AI, Arcee AI"
           role="Full Stack Developer"
           button="View Git Repo"
-          buttonLink=""
+          buttonLink="https://github.com/amsyb/owed"
         ></Summary>
 
         <TextBlock
@@ -34,9 +34,9 @@ There's no simple, accessible, one-stop tool for workers facing these situations
           ></TextBlock>
         </div>
         <MediaBlockRight
-          image={placeholder}
+          video={OwedDemo}
           title="Final Product"
-          description="Owed brings together rights information, wage calculations, and escalation pathways in one place, reducing the cognitive load workers face when navigating an unfamiliar system."
+          description="Owed brings together rights information, wage calculations, and escalation pathways in one place — reducing the cognitive load workers face when navigating an unfamiliar system."
           button="View Github"
           buttonLink=""
         ></MediaBlockRight>

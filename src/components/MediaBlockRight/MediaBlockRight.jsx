@@ -1,7 +1,14 @@
 import React from "react";
 import "../MediaBlock/MediaBlock.scss";
 
-const MediaBlockRight = ({ image, title, description, button, buttonLink }) => {
+const MediaBlockRight = ({
+  image,
+  video,
+  title,
+  description,
+  button,
+  buttonLink,
+}) => {
   const goToLink = () => {
     window.open(buttonLink, "_blank");
   };
@@ -13,13 +20,24 @@ const MediaBlockRight = ({ image, title, description, button, buttonLink }) => {
           <h4>{title}</h4>
           <p>{description}</p>
           {button && (
-          <button className="btn" onClick={goToLink}>
-            {button}
-          </button>
-        )}
+            <button className="btn" onClick={goToLink}>
+              {button}
+            </button>
+          )}
         </div>
         <div className="media__container">
-          <img src={image} alt={title} className="media__img" loading="lazy" />
+          {video ? (
+            <video controls className="media__img">
+              <source src={video} type="video/mp4" />
+            </video>
+          ) : (
+            <img
+              src={image}
+              alt={title}
+              className="media__img"
+              loading="lazy"
+            />
+          )}
         </div>
       </section>
     </>
