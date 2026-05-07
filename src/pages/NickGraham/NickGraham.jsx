@@ -59,8 +59,7 @@ enhanced the footer’s design with a fabric-textured background to reinforce th
           <MediaBlockRight
             image={finalProduct}
             title="Final Product"
-            description="Giftstart expanded my previous employer’s market reach by establishing a strong brand and scalable UI framework. A highlight was the intuitive gift registry UI, which enhanced user experience and translated seamlessly into front-end components.
-The project’s success led to industry recognition, earning an Innovative Design award at the Netty Awards.
+            description="The project enabled the client to showcase their full product catalog while creating a more seamless and intuitive purchasing experience for users.
 "
             button="View Site"
             buttonLink="https://nickgraham.com/"
