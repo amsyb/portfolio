@@ -9,14 +9,12 @@ function Homepage() {
         <section className="homepage__copy">
           <div className="homepage__about">
             <p>
-              With three years of UX/UI design, i’ve led projects from ideation
-              to deployment, always focusing on creating intuitive experiences
-              that meet user needs.
+             
+As an experienced UX/UI Developer, I understand that data-driven research and an iterative design process are critical to crafting inclusive, intuitive user experiences.
+
             </p>
             <p>
-              Now, with a Bachelor of Science in Software Engineering, I'm eager
-              to tackle novel challenges and build intuitive, accessible, and
-              scalable solutions.
+              I’m excited to connect with others who share a passion for innovation and to continue growing in a field that blends creativity and logic.
             </p>
           </div>
           <div className="homepage__profile">
